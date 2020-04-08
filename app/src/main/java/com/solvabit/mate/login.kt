@@ -33,7 +33,7 @@ class login : BaseActivity() {
         }
     }
 
-    /*public fun logi () {
+    public fun logi () {
         val emailTxt = findViewById<View>(R.id.email_register) as EditText
         var email = emailTxt.text.toString()
         val passwordTxt = findViewById<View>(R.id.cnf_password_register) as EditText
@@ -85,5 +85,5 @@ class login : BaseActivity() {
 
 
     }
-    */
+    
 }
