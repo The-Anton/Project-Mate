@@ -23,7 +23,7 @@ class login : BaseActivity() {
         val loginBtn = findViewById<View>(R.id.registerbtn_login) as Button
 
         loginBtn.setOnClickListener(View.OnClickListener { view ->
-            //logi()
+            logi()
             //startActivity(Intent(this, Leaderboard::class.java))
         })
 
@@ -85,5 +85,5 @@ class login : BaseActivity() {
 
 
     }
-    
+
 }
